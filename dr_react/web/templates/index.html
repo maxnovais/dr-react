@@ -1,13 +1,17 @@
 {% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Dr React - Web UI</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
-</head>
-<body>
-
-</body>
+  <head>
+      <meta charset="UTF-8">
+      <title>Dr React - Web UI</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+  </head>
+  <body>
+      <div id="container" class="container"></div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react-dom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+  <script src="{% static 'js/script.jsx' %}" type="text/babel"></script>
 </html>
